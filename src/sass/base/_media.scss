@@ -1,0 +1,161 @@
+@media (max-width: 1200px) {
+	.promo{
+		min-height: 840px
+	}
+	.consultation {
+		min-height: 840px
+	}
+}
+	
+
+@media (max-width: 991px){
+	.header {
+		justify-content: space-around;
+	}
+	.promo {
+		&__wrapper{
+			padding-right: 43px;
+		}
+	}	
+	.consultation {
+		.title_left { 
+			padding-left: 20px;
+			}
+			&__descr {
+				padding-left: 20px;
+
+			}
+		.feed-form {
+			padding-left: 20px;
+			width: 343px;
+		}
+	}
+}
+@media (max-width: 767px){
+	.header{
+		
+		&__contacts {
+			padding-right: 20px;
+		}
+		&__logo {
+			padding-left: 20px;
+		}
+	}
+	.promo{
+		min-height: 600px;
+		&__img {
+			width: 100%;
+		}		
+		&__wrapper {
+			padding-right: 20px;
+		}
+	}
+	.advantages {
+		padding: 0 10px 0 10px;
+	}
+	.consultation {
+		.title_left { 
+			text-align: center;
+			}
+			&__descr {
+				text-align: center;
+				padding: 0 20px 0 20px;
+			}
+		.feed-form {
+			margin: 0 auto;
+			width: 343px;
+			margin-top: 36px;
+		}
+		}
+}
+@media (max-width: 575px) {
+	.header {
+		flex-wrap: wrap;
+		&img{
+			width: 100%;
+		}
+		&__logo {
+			padding-right: 20px;
+			width: 195px;
+		}    
+		&__official {
+			display: none;
+		
+		}
+		&__phone {
+			font-size: 14px;
+			
+		}
+		button {
+			font-size: 10px;
+			width: 120px;
+			margin-bottom: 20px;
+		}
+		&__contacts {
+			display: block;
+			padding-top: 20px;
+			align-items:center
+		}
+		
+	}
+	.promo{
+		padding-bottom: 45px;
+		
+		&__wrapper{
+			align-items: center;
+
+		}
+
+		&__header {
+			font-size: 36px;
+			text-align: center;
+		}
+		&__subheader {
+			font-size: 23px;
+			text-align: center;
+		}
+		&__icons {
+			display: block;
+			margin: 0 auto;
+			width: 123px;
+			margin-top: 20px;
+		}
+		&__icon {
+			margin-bottom: 20px;
+			font-size: 17px;
+		}
+		
+	}
+	.advantages {
+	    .title {
+			padding-top: 20px;
+			font-size: 27px;
+			padding-bottom: 15px;
+		}
+		&__wrapper {
+			display: block;
+			margin: 0 auto;
+		
+		}
+		&__item {
+			max-width: 510px;
+
+		}
+		&__descr {
+			padding-bottom: 20px;
+		}
+	}
+	.consultation {
+	.title_left { 
+		text-align: center;
+		}
+		&__descr {
+			text-align: center;
+			padding: 0 20px 0 20px;
+		}
+	.feed-form {
+		padding: 0 20px 0 20px;
+		width: 343px;
+	}
+	}
+}
