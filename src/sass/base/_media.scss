@@ -100,7 +100,7 @@
 @media (max-width: 575px) {
 	.header {
 		flex-wrap: wrap;
-		&img{
+		&img {
 			display: block;
 			margin: 0 auto;
 			width: 100%;
@@ -131,6 +131,7 @@
 	}
 	.promo{
 		padding-bottom: 45px;
+		background-position: -1431px;
 		
 		&__wrapper{
 			align-items: center;
@@ -228,5 +229,13 @@
 	.footer__info {
 		display: block;
 		width: 100%;
-	}	
+	}
+	.modal {
+		width: 240px;
+    	
+	}
+	.modal__subtitle {
+		font-size: 17px;
+	}
+		
 }
